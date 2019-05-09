@@ -4,5 +4,110 @@
     ViewData["Title"] = "Sobre";
 }
 
-<h2>Sobre</h2>
+<table>
+    <tr>
+        <td>
+            <font face="Segoe UI">
+                <p>
+                    Neste artigo veremos realizar um
+                    CRUD básico usando o micro ORM <font color="#0000FF">Dapper</font> e o
+                    padrão Repository em uma aplicação <font color="#0000FF">
+                        ASP .NET Core Razor
+                        Page
+                </p>
+            </font>
+        </td>
+    </tr>
+
+
+
+</table>
+
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            Muitas
+            vezes você não precisa de um framework ORM como o EF Core para realizar a
+            persistência e o acesso aos dados de sua aplicação. As vezes usar um ORM pode
+            até impactar o desempenho das suas consultas e neste caso o caminho seria partir
+            para otimização quando possível ou usar outros recursos.
+        </font>
+    </span>
+</p>
+<p align="center">
+
+    <img border="0" src="~/img/netcore.png" width="443" height="95"></a>
+
+</p>
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            O Dapper
+            pode ser considerado um micro ORM com um foco no desempenho das consultas e na
+            simplicidade de sua utilização. Ele não possui todas os recursos de um ORM
+            completo mas permite usar métodos de extensão que simplifica a criação de
+            consultas possuindo uma integração com ADO .NET que suporta
+            <font color="#0000FF">Views, Stored Procedures, Tables, transações, etc.</font>
+        </font>
+    </span>
+</p>
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            Basicamente o Dapper usa os métodos de extensão implementados da classe de
+            conexão com o banco de dados, faz a consulta ao banco e faz o mapeamento do
+            retorno do Data Reader. Para usar o Dapper basta incluir uma referência no
+            projeto via Nuget.
+        </font>
+    </span>
+</p>
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            Neste
+            artigo veremos como usar o <font color="#0000FF">Dapper</font> para realizar o
+            CRUD básico em uma aplicação <font color="#0000FF">ASP .NET Core Razor Page</font>
+            usando o padrão <font color="#0000FF">Repository</font>.
+        </font>
+    </span>
+</p>
+<p>
+    <font face="Segoe UI">
+        <span style="letter-spacing: 0.05em">
+            As <b>
+                Razor Pages
+            </b> são um um novo recurso da ASP.NET Core MVC que torna a
+            codificação de cenários focados em páginas mais fácil e mais produtiva.
+        </span>
+    </font>
+</p>
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            Todos os
+            tipos de Razor Pages e seus recursos estão presentes no assembly <b>
+                Microsoft.AspNetCore.Mvc.RazorPages
+            </b> sendo que o pacote MVC - <b>
+                Microsoft.AspNetCore.Mvc
+            </b> inclui o conjunto das Razor Pages. Isso significa
+            que você pode usar as Razor Pages fora da caixa com o MVC.<br>
+            <br>
+            Uma das vantagens das Razor Pages é que sua configuração é bem direta e
+            simplificada. Basta criar um novo projeto vazio, adicionar a pasta <b>Pages</b>,
+            criar uma página, e dai você apenas escreve código e a marcação dentro de seu
+            arquivo <b>.cshtml.</b>
+        </font>
+    </span>
+</p>
+<p>
+    <span style="letter-spacing: 0.05em">
+        <font face="Segoe UI">
+            Saiba
+            mais  neste link: <a href="http://www.macoratti.net/18/10/aspn_crudap1.htm"> Site Macoratti</a>
+                 
+            
+        </font>
+    </span>
+</p>
+
 
